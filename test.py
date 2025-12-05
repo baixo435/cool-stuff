@@ -1,1 +1,1 @@
-ddsfd
+print("Hello World!")
