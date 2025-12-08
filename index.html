@@ -1,1 +1,310 @@
-<iframe src="http://basketball-bros.github.io/" height="700" width="1450" title="Iframe Example"></iframe>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Bros - Play Free Online Basketball Game | BasketballBros.xyz</title>
+    <meta name="description" content="Play Basketball Bros online for free! Experience the ultimate basketball showdown with smooth controls, epic moves, and competitive gameplay. No download required!">
+    <meta name="keywords" content="basketball bros, basketball game, online basketball, free basketball game, sports game, basketball stars">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="http://basketballbros.xyz/">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Basketball Bros - Free Online Basketball Game">
+    <meta property="og:description" content="Play Basketball Bros online for free! Ultimate basketball showdown with smooth controls and epic moves.">
+    <meta property="og:url" content="http://basketballbros.xyz/">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Basketball Bros">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Basketball Bros - Free Online Basketball Game">
+    <meta name="twitter:description" content="Experience the ultimate basketball showdown online. Play now for free!">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'apple-blue': '#007AFF',
+                        'apple-gray': '#8E8E93',
+                        'apple-light-gray': '#F2F2F7',
+                        'apple-dark': '#1C1C1E',
+                        'apple-green': '#34C759',
+                        'apple-orange': '#FF9500',
+                        'apple-red': '#FF3B30'
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <style>
+        .game-frame {
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #007AFF 0%, #34C759 100%);
+        }
+        .text-shadow {
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        @media (max-width: 768px) {
+            .game-container {
+                height: 60vh;
+                min-height: 400px;
+            }
+        }
+        @media (min-width: 769px) {
+            .game-container {
+                height: 70vh;
+                min-height: 500px;
+            }
+        }
+    </style>
+</head>
+<body class="bg-apple-light-gray text-apple-dark font-sans">
+    <!-- Header -->
+    <header class="gradient-bg text-white py-6 px-4">
+        <div class="max-w-6xl mx-auto">
+            <h1 class="text-4xl md:text-5xl font-bold text-center text-shadow mb-2">Basketball Bros</h1>
+            <p class="text-xl md:text-2xl text-center opacity-90">The Ultimate Online Basketball Showdown</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-6xl mx-auto px-4 py-8">
+        <!-- Game Section -->
+        <section class="mb-12">
+            <div class="bg-white rounded-xl shadow-lg p-6 md:p-8">
+                <div class="game-container w-full">
+                    <iframe 
+                        src="https://www.onlinegames.io/games/2024/gm/basketball-stars/index.html"
+                        class="w-full h-full game-frame border-0"
+                        allowfullscreen
+                        loading="eager"
+                        title="Basketball Bros Game"
+                        allow="gamepad; fullscreen">
+                    </iframe>
+                </div>
+                <div class="mt-6 text-center">
+                    <button onclick="document.querySelector('iframe').requestFullscreen()" 
+                            class="bg-apple-blue text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 transition-colors">
+                        🎮 Play Fullscreen
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Game Description -->
+        <section class="mb-12">
+            <div class="bg-white rounded-xl shadow-lg p-6 md:p-8">
+                <h2 class="text-3xl font-bold text-apple-blue mb-6">About Basketball Bros</h2>
+                <div class="prose max-w-none text-gray-700 leading-relaxed">
+                    <p class="text-lg mb-4">
+                        Basketball Bros is the ultimate online basketball experience that brings the excitement of street basketball right to your browser. This fast-paced, action-packed game features incredible graphics, smooth gameplay, and competitive multiplayer action that will keep you coming back for more.
+                    </p>
+                    <p class="mb-4">
+                        Step onto the virtual court and showcase your basketball skills in this thrilling sports game. Whether you're a casual player looking for fun or a competitive gamer seeking the ultimate challenge, Basketball Bros delivers an authentic basketball experience with intuitive controls and dynamic gameplay mechanics.
+                    </p>
+                    <p>
+                        The game features multiple game modes, customizable characters, and realistic physics that make every shot, dribble, and dunk feel incredibly satisfying. Challenge players from around the world or practice your skills in single-player mode to become the ultimate Basketball Bro!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Game Features -->
+        <section class="mb-12">
+            <div class="bg-white rounded-xl shadow-lg p-6 md:p-8">
+                <h2 class="text-3xl font-bold text-apple-green mb-6">Game Features</h2>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-3">
+                            <span class="text-apple-blue text-xl">🏀</span>
+                            <div>
+                                <h3 class="font-semibold text-lg">Realistic Basketball Physics</h3>
+                                <p class="text-gray-600">Experience authentic basketball gameplay with realistic ball physics and player movements.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <span class="text-apple-green text-xl">👥</span>
+                            <div>
+                                <h3 class="font-semibold text-lg">Multiplayer Action</h3>
+                                <p class="text-gray-600">Challenge friends or compete against players worldwide in real-time matches.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <span class="text-apple-orange text-xl">🎮</span>
+                            <div>
+                                <h3 class="font-semibold text-lg">Easy Controls</h3>
+                                <p class="text-gray-600">Simple yet responsive controls that are easy to learn but difficult to master.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-3">
+                            <span class="text-apple-red text-xl">⚡</span>
+                            <div>
+                                <h3 class="font-semibold text-lg">Fast-Paced Gameplay</h3>
+                                <p class="text-gray-600">Quick matches that deliver intense basketball action in just minutes.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <span class="text-purple-500 text-xl">🏆</span>
+                            <div>
+                                <h3 class="font-semibold text-lg">Competitive Modes</h3>
+                                <p class="text-gray-600">Multiple game modes including tournaments, quick matches, and practice sessions.</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <span class="text-pink-500 text-xl">📱</span>
+                            <div>
+                                <h3 class="font-semibold text-lg">Cross-Platform</h3>
+                                <p class="text-gray-600">Play seamlessly on any device - desktop, tablet, or mobile phone.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Controls Section -->
+        <section class="mb-12">
+            <div class="bg-white rounded-xl shadow-lg p-6 md:p-8">
+                <h2 class="text-3xl font-bold text-apple-orange mb-6">How to Play Basketball Bros</h2>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <!-- PC Controls -->
+                    <div class="bg-apple-light-gray rounded-lg p-6">
+                        <h3 class="text-xl font-semibold mb-4 text-apple-blue">💻 PC Controls</h3>
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span class="font-medium">Movement:</span>
+                                <span class="bg-white px-3 py-1 rounded font-mono">A, S, D</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="font-medium">Shoot/Block:</span>
+                                <span class="bg-white px-3 py-1 rounded font-mono">B</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="font-medium">Pump/Steal:</span>
+                                <span class="bg-white px-3 py-1 rounded font-mono">S</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="font-medium">Dash:</span>
+                                <span class="bg-white px-3 py-1 rounded font-mono">D</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="font-medium">Supershot:</span>
+                                <span class="bg-white px-3 py-1 rounded font-mono">V</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mobile Controls -->
+                    <div class="bg-apple-light-gray rounded-lg p-6">
+                        <h3 class="text-xl font-semibold mb-4 text-apple-green">📱 Mobile Controls</h3>
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center">
+                                <span class="font-medium">Movement:</span>
+                                <span class="bg-white px-3 py-1 rounded">Touch Controls</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="font-medium">Shoot/Block:</span>
+                                <span class="bg-white px-3 py-1 rounded">Tap Button</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="font-medium">Pump/Steal:</span>
+                                <span class="bg-white px-3 py-1 rounded">Swipe Up</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="font-medium">Dash:</span>
+                                <span class="bg-white px-3 py-1 rounded">Double Tap</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="font-medium">Supershot:</span>
+                                <span class="bg-white px-3 py-1 rounded">Hold & Release</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gameplay Tips -->
+                <div class="mt-8 bg-gradient-to-r from-apple-blue to-apple-green rounded-lg p-6 text-white">
+                    <h3 class="text-xl font-semibold mb-4">🎯 Pro Tips</h3>
+                    <ul class="space-y-2 text-sm opacity-90">
+                        <li>• Master the timing of your shots for higher accuracy</li>
+                        <li>• Use pump fakes to confuse your opponent's defense</li>
+                        <li>• Time your blocks perfectly to steal the ball</li>
+                        <li>• Save your supershot for crucial moments</li>
+                        <li>• Practice dashing to create space for clean shots</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="mb-12">
+            <div class="bg-white rounded-xl shadow-lg p-6 md:p-8">
+                <h2 class="text-3xl font-bold text-apple-red mb-6">Frequently Asked Questions</h2>
+                <div class="space-y-6">
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="font-semibold text-lg mb-2">Is Basketball Bros free to play?</h3>
+                        <p class="text-gray-600">Yes! Basketball Bros is completely free to play online. No downloads or installations required - just open your browser and start playing.</p>
+                    </div>
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="font-semibold text-lg mb-2">Can I play on mobile devices?</h3>
+                        <p class="text-gray-600">Absolutely! Basketball Bros is fully optimized for mobile devices, tablets, and desktop computers. The game automatically adapts to your screen size.</p>
+                    </div>
+                    <div class="border-b border-gray-200 pb-4">
+                        <h3 class="font-semibold text-lg mb-2">Do I need to create an account?</h3>
+                        <p class="text-gray-600">No account registration is required. You can jump straight into the action and start playing immediately.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-semibold text-lg mb-2">Is there a multiplayer mode?</h3>
+                        <p class="text-gray-600">Yes! Challenge other players online in real-time multiplayer matches or practice in single-player mode to improve your skills.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-apple-dark text-white py-8 px-4">
+        <div class="max-w-6xl mx-auto text-center">
+            <h3 class="text-xl font-semibold mb-4">Basketball Bros</h3>
+            <p class="text-apple-gray mb-4">The ultimate online basketball experience. Play anywhere, anytime!</p>
+            <p class="text-sm text-apple-gray mb-4">© 2024 BasketballBros.xyz - All rights reserved</p>
+            
+            <!-- MagicBox.tools Badge -->
+            <div class="flex justify-center">
+                <a href="https://magicbox.tools" target="_blank" rel="noopener noreferrer">
+                    <img src="https://magicbox.tools/badge.svg" alt="Featured on MagicBox.tools" width="200" height="54" />
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Game",
+        "name": "Basketball Bros",
+        "description": "Play Basketball Bros online for free! Experience the ultimate basketball showdown with smooth controls, epic moves, and competitive gameplay.",
+        "url": "http://basketballbros.xyz/",
+        "genre": "Sports",
+        "playMode": "MultiPlayer",
+        "applicationCategory": "Game",
+        "operatingSystem": "Any",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        }
+    }
+    </script>
+</body>
+</html>
